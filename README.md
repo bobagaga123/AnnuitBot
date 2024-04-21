@@ -14,7 +14,9 @@
 
 4. Активируйте его:
 
-``venv/Source/activate```
+
+```venv/Source/activate```
+
 
 5. Установите необходимое:
 
