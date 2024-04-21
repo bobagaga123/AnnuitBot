@@ -5,11 +5,11 @@ from handlers import user_commands, creditor
 logging.basicConfig(level=logging.INFO)
 async def main():
     #Вставить сюда токен скоего бота
-    bot = Bot(token=YOUR_BOT_TOKEN)
+    bot = Bot(token=YOUR_API_TOKEN)
     dp = Dispatcher()
 
 
-    dp.include_routers( user_commands.router,creditor.router,)
+    dp.include_routers( user_commands.router,creditor.router)
     await dp.start_polling(bot)
 
 

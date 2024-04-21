@@ -28,7 +28,7 @@ async def cmd_start(message: Message):
 @router.message(Command("help"))
 @router.message(F.text.lower() == "помощь")
 async def msg(message: Message):
-    await message.answer(""""Привет! Я бот для расчета аннуитетных платежей по кредиту. Вот что я могу:
+    await message.answer("""Привет! Я бот для расчета аннуитетных платежей по кредиту. Вот что я могу:
 
 /calсulate - рассчитать аннуитетный платеж по кредиту
 /help - показать это сообщение
@@ -59,7 +59,7 @@ n - общее количество платежей (срок кредита в
 
 @router.callback_query(MyCallback.filter(F.foo == "help"))
 async def help_query(query: CallbackQuery, callback_data: MyCallback):
-    await query.message.answer(""""Привет! Я бот для расчета аннуитетных платежей по кредиту. Вот что я могу:
+    await query.message.answer("""Привет! Я бот для расчета аннуитетных платежей по кредиту. Вот что я могу:
 
 /calculate - рассчитать аннуитетный платеж по кредиту 
 /help - показать это сообщение
