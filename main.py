@@ -1,9 +1,7 @@
 import asyncio
 import logging
-from aiogram import Bot, Dispatcher, F
-from aiogram.types import Message
+from aiogram import Bot, Dispatcher
 from handlers import user_commands, creditor
-from handlers.creditor import input_data
 logging.basicConfig(level=logging.INFO)
 async def main():
     #Вставить сюда токен скоего бота
