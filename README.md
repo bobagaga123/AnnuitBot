@@ -2,7 +2,7 @@
 
 1. Сначала скопируйте репозиторий с GitHub с помощью команды git clone:
 
-```git clone https://github.com/bobagaga123/CreditBot.git```
+```git clone https://github.com/bobagaga123/AnnuitBot.git```
 
 2. Перейдите в скопированную директорию:
 
