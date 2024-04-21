@@ -12,11 +12,15 @@
    
 ```python -m venv venv```
 
+4. Активируйте его:
+
+``venv/Source/activate```
+
 5. Установите необходимое:
 
 ```pip install -r requirements.txt```
 
-5. Поменяйте в файле main.py токен на токен своего бота:
+6. Поменяйте в файле main.py токен на токен своего бота:
 
 ```bot = Bot(token=YOUR_BOT_TOKEN)```
 
